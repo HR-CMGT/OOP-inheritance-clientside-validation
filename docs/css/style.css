@@ -1,0 +1,46 @@
+body {
+    font-family         : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    padding             : 20px;
+    margin              : 25px auto;
+    max-width           : 50%;
+    color               : #666;
+    background          : #D2E9FF;
+    font-size           : 1em;
+}
+
+form input{
+    width               : 60%;
+    height              : 30px;
+    margin              : 2px 6px 16px 0px;
+    padding-left        : 5px;
+    line-height         : 15px;
+    color               : #888;
+    border              : 1px solid #C5E2FF;
+    background          : #FBFBFB;
+    outline             : 0;
+    -webkit-box-shadow  : inset 0px 1px 6px #ECF3F5;
+    box-shadow          : inset 0px 1px 6px #ECF3F5;
+    font                : 200 12px/25px Arial, Helvetica, sans-serif;
+}
+form input[type="checkbox"]{
+    width               : 5%;
+    box-shadow          : none;
+}
+/* Span next to checkbox */
+form input[type="checkbox"] + span{
+    height              : 38px;
+    vertical-align      : middle;
+}
+
+form label {
+    display             : block;
+    margin-bottom       : 5px;
+}
+
+.error {
+    color               : red;
+    display             : none;
+}
